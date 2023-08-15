@@ -9,3 +9,13 @@ target_assembly=ContrabandPolice_Data\Managed\cp_hooker.dll
 ```
 3. Copy `cp_hooker.dll` to `ContrabandPolice_Data\Managed` folder
 4. Everytime a car will enter your post, you will get the correct answers information like the following
+
+![](img/screen_eng.png)
+
+![](img/screen_rus.png)
+
+
+## Compilation
+1. Install [Harmony.Lib](https://github.com/pardeike/Harmony) to the VS project
+2. Update `CSharp-Assembly` and `UnityEngine.CoreModule` paths in the project references
+3. Build
